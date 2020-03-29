@@ -1,1 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+}
+
+table {
+  /* border-collapse: collapse; */
+  border-spacing: 4px;
+  table-layout: auto;
+}
+
+tbody {
+  /* background-color: #FFD03E; */
+}
+
+th, td {
+  /* border: 1px solid #000; */
+  /* -ms-align-items: center;
+  align-items: center; */
+}
+
+th {
+  text-shadow: 3px 3px 4px #9a9a9a;
+  font-size: 3rem;
+}
+
+td {
+  background-color: lightcoral;
+  border-radius: 8px;
+  box-shadow: -2px 5px 9px -8px black;
+  padding: 0;
+}
+
+td:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+td:nth-child(4) {
+  font-size: 5rem;
+  font-weight: lighter;
+  padding: 0 8px;
+}
+
+td:nth-child(5) {
+  padding: 0 8px;
+}
+
+td>a {
+  text-decoration: none;
+  color: #7E043A;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+a:hover {
+  transform: scale(0.9);
+  color: #FFD03E;
+}
+
+p {
+  padding: 16px;
+  margin: 0;
+}
+
+.urgent, .booked, .bought, .normal {
+  font-size: 5rem;
+}
+
+.urgent {
+  background-color: #BE0000;
+}
+
+.booked {
+  background-color: lightblue;
+}
+
+.bought {
+  background-color: lightgreen;
+}
+
+.normal {
+  background-color: lightcoral;
+}
+
+tr, th, td {
+  /* display: flex;
+  width: 100%;
+  justify-content: center;
+  -ms-align-items: center; */
+  text-align: center;
+}
+
+img {
+  width: 90%;
+  margin: 16px;
+  border-radius: 8px;
+}
