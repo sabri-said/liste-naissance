@@ -126,7 +126,7 @@ input {
   justify-content: center;
 }
 
-.submit {
+.submit-object-button {
   width: 8rem;
   height: 3rem;
   display: flex;
@@ -134,4 +134,23 @@ input {
   padding: 0.5rem;
   cursor: pointer;
   text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.submit-list-button {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 6rem;
+  transition: 0.5s;
+}
+
+.submit-list-button:hover, .submit-object-button:hover {
+  background-color: #05B6A7;
+}
+
+.container-form-list {
+  padding: 0;
+  margin-top: 1rem;
 }
